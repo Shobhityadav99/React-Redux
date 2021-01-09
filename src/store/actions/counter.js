@@ -21,7 +21,7 @@ export const addition = (val) => {
 
 export const subtract = (val) => {
     return {
-        type: SUBTRACT,
+        type: actionTypes.SUBTRACT,
         value: val
     }
 }
